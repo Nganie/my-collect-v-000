@@ -1,9 +1,5 @@
-def my_collect(i)
-  i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
-  end
-  collection
+def my_collect(x)
+array = []
+
+my_collect(x) do |y|
 end
