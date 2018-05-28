@@ -1,5 +1,3 @@
-def my_collect(x)
-array = []
-
-my_collect(x) do |y|
+def my_collect(array)
+collection = []
 end
